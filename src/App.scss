@@ -1,0 +1,146 @@
+.form-group {
+	margin-bottom: 0;
+}
+label {
+	margin-bottom: 0;
+	margin-top: 8px;
+}
+.model-opacity {
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+}
+.model-container {
+	margin: auto;
+	width: 500px;
+	height: 460px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #fff;
+	position: fixed;
+	padding: 20px 20px 50px 20px;
+	>div {
+		position: relative;
+		>button {
+			position: absolute;
+			right: -3px;
+			top: -8px;
+			width: 30px;
+			height: 30px;
+			background-color: #999;
+			color: #fff;
+			font-size: 22px;
+			line-height: 19px;
+			border: 0;
+			border-radius: 100%;
+			outline: 0;
+		}
+	}
+}
+.Container {
+	width: 90%;
+	max-width: 800px;
+	margin: 0px auto;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+	thead {
+		tr {
+			background-color: #f2f2f2;
+		}
+	}
+}
+th {
+	text-align: left;
+	padding: 16px;
+}
+td {
+	text-align: left;
+	padding: 16px;
+}
+tr {
+	&:nth-child(even) {
+		background-color: #f2f2f2;
+	}
+}
+.top-bar {
+	margin-top: 80px;
+	>div {
+		&:first-child {
+			float: left;
+			font-size: 24px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		&:last-child {
+			float: right;
+			margin-bottom: 10px;
+			button {
+				display: inline-block;
+			}
+			>div {
+				display: inline-block;
+				position: relative;
+				margin-left: 15px;
+				input {
+					outline: 0;
+					border-radius: 15px;
+					padding: 4px 4px 4px 25px;
+					border: 1px solid #333;
+				}
+				img {
+					position: absolute;
+					left: 8px;
+					top: 10px;
+				}
+			}
+		}
+	}
+}
+.button {
+	color: #fff !important;
+	background-color: #007bff !important;
+	border-color: #007bff;
+	display: inline-block;
+	font-weight: 400;
+	color: #212529;
+	border: 1px solid transparent;
+	padding: 4px 12px;
+	border-radius: 0.25rem;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.button.grey {
+	background-color: #999 !important;
+}
+.form-wrapper {
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+.pagination-sec {
+	text-align: right;
+	margin-top: 15px;
+	>div {
+		display: inline-block;
+		border: 1px solid #666;
+		a {
+			display: inline-block;
+			color: #333 !important;
+			border-right: 1px solid #666;
+			padding-left: 12px;
+			padding-right: 12px;
+		}
+		a.current {
+			color: #fff !important;
+			background-color: #007bff !important;
+		}
+	}
+}
